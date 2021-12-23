@@ -2,11 +2,11 @@ package edu.kis.vh.nursery;
 
 public class DefaultCountingOutRhymer {
 
-	private static int MAX_NUMBER = 12;
+	private static final int MAX_NUMBER = 12;
 
-	private static int INITIAL_CAPACITY = -1;
+	private static final int INITIAL_CAPACITY = -1;
 
-	private static int ERROR_CODE = -1;
+	private static final int ERROR_CODE = -1;
 
 	private int[] numbers = new int[MAX_NUMBER];
 
